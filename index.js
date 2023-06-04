@@ -15,7 +15,7 @@ const client = new Discord.Client({
 client.once(Events.ClientReady, c => {
 	console.log(`Pronto! Login realizado como ${c.user.username}.`)
 });
-client.login("MTA5OTgzMzU0MzE5NjE2NDE4Nw.GpJaAd.SOFTo3dNk0Oo4efDDU8Q5hW1Lad8h5YjDfUFfo");
+client.login("MTA5OTgzMzU0MzE5NjE2NDE4Nw.GpJaAd.SOFTo3dNk0Oo4efDDU8Q5hW1Lad8h5YjDfUFfo"); //token
 
 client.on('messageCreate', async (message) => {
     if(message.author.bot) return;
